@@ -37,6 +37,8 @@ ESSENTIAL_NOT_NULL = {
     "Work Hours per Week",
     "Happiness Score",
     "Exercise Level",
+    "Diet Type",
+    "Mental Health Condition",
 }
 
 # -------- categorical normalization helpers --------
@@ -113,3 +115,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
