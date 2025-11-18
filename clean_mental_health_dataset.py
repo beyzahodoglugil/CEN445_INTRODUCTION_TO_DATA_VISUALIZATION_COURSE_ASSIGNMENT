@@ -18,10 +18,10 @@ import pandas as pd
 NUMERIC_BOUNDS = {
     "Age": (10, 100),
     "Sleep Hours": (3.0, 12.0),
-    "Screen Time per Day (Hours)": (0.0, 20.0),
+    "Screen Time per Day (Hours)": (0.0, 10.0),
     "Social Interaction Score": (0.0, 10.0),
     "Happiness Score": (0.0, 10.0),
-    "Work Hours per Week": (0, 120),
+    "Work Hours per Week": (0, 84),
 }
 
 # -------- which columns MUST NOT be missing? --------
@@ -115,4 +115,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
